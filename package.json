@@ -1,0 +1,11 @@
+{
+  "name": "labsap",
+  "version": "1.0.0",
+  "description": "Mariana Sapriza Fotografa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johanna Barretto",
+  "license": "ISC"
+}

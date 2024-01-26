@@ -6,35 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabSap</title>
     <link rel="shortcut icon" href="./multimedia/Perfil MSP.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./Styles/Styles.css">
 </head>
 
 <body class="grillaBody">
+
     <header class="grillaHeader contenedorHeader">
-        <img class="headerLabZap" src="./multimedia/HeaderLabZap.png" alt="Header LabZap ">
-        <nav class="grillaNav">
-            <ul>
-                <li><a href="#" class="botonNav">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/Servicios.html" class="botonNav">Servicios</a>
-                </li>
-                <li>
-                    <a href="./pages/Portfolio.html" class="botonNav">Portfolio</a>
-                </li>
-                <li>
-                    <a href="./pages/Novedades.html" class="botonNav">Novedades</a>
-                </li>
-                <li>
-                    <a href="./pages/Contacto.html" class="botonNav">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <img class="headerLabSap" src="./multimedia/LabSapFondoBlanco.jpeg" alt="Header LabSap ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio </a>
+                        <a class="nav-link" href="./paginas/Servicios.html">Servicios </a>
+                        <a class="nav-link" href="./paginas/Portfolio.html">Portfolio </a>
+                        <a class="nav-link" href="./paginas/Novedades.html">Novedades </a>
+                        <a class="nav-link" href="./paginas/Contacto.html">Contacto </a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="grillaMain">
-        <h1 class="fuentecolorantique">Mariana Sapriza - Fotógrafa</h1>
+        <div class="fuentecolorantique">
+            <h1 class="bordeContenedorMain">Mariana Sapriza - Fotógrafa</h1>
+        </div>
         <section>
-            <div>
+            <div class="bordeContenedor">
                 <h2>Mi pasión...</h2>
                 <p class="infoMariana">La fotografía despierta una pasión única en quienes la exploran. A través del
                     lente, se capturan
@@ -46,7 +52,7 @@
             </div>
         </section>
         <section>
-            <div>
+            <div class="bordeContenedor">
                 <h2>Conoceme...</h2>
                 <p class="infoMariana">Soy fotógrafa y Licenciada en Artes por la UBA.
                     Realizo coberturas para medios gráficos, empresas, espacios culturales y eventos sociales.
@@ -65,16 +71,25 @@
             </div>
         </section>
         <section>
-            <h3>Perfil profesional</h3>
-            <a target="_blank" class="infoMarianaSinMarco"
-                href="https://www.linkedin.com/in/mariana-sapriza-mor%C3%A1n-935b7560/?originalSubdomain=ar">Linkedin</a>
+            <div class="bordeContenedor">
+                <h3>Perfil profesional</h3>
+                <a target="_blank" class="infoMarianaSinMarco"
+                    href="https://www.linkedin.com/in/mariana-sapriza-mor%C3%A1n-935b7560/?originalSubdomain=ar">Linkedin</a>
+            </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
-<footer class="grillaFooter">
+<footer class=" bordeContenedor grillaFooter">
     <h3>Redes sociales</h3>
-    <a target="_blank" href="https://www.instagram.com/" class="infoMarianaSinMarco">Instagram</a>
-    <a target="_blank" href="https://www.facebook.com/" class="infoMarianaSinMarco">Facebook</a>
+    <div>
+        <a target="_blank" href="https://www.instagram.com/" class="infoMarianaSinMarco">Instagram</a>
+    </div>
+    <div>
+        <a target="_blank" href="https://www.facebook.com/" class="infoMarianaSinMarco">Facebook</a>
+    </div>
 </footer>
 
 </html>
