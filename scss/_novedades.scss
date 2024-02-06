@@ -1,0 +1,37 @@
+main {
+    .grillaMain {
+        grid-area: main;
+    }
+
+    div {
+        .fuentecolorantique {
+            color: antiquewhite;
+            font-style: initial;
+            background-color: brown;
+            font-family: $tipografia-general;
+        }
+
+        h1 {
+            .bordeContenedorMain {
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+        }
+    }
+
+    section {
+        .bordeContenedor {
+            @extend .bordeContenedorMain;
+            margin-top: 2rem;
+        }
+
+        p {
+            .infoMarianaSinMarco {
+                font-family: $tipografia-general;
+                color: $color-fuente;
+                padding: map-get($padding, paddingdiez);
+                font-size: $tamano-fuente;
+            }
+        }
+    }
+}

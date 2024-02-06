@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "fontDosis";
+    src: url(../multimedia/fonts/Dosis/static/Dosis-Bold.ttf)
+}
+
+* {
+    margin: 6;
+    padding: 1;
+}
+
+body {
+    background-color: rgb(204, 191, 191);
+
+    .grillaBody {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+
+        @media only screen and (max-width:480px) {
+            .grillaBody {
+                display: grid;
+                grid-template-areas:
+                    "header"
+                    "main"
+                    "footer";
+            }
+
+            @media only screen and (min-width: 481px) and (max-width:767px) {
+                .grillaBody {
+                    background-color: grey;
+                }
+            }
+
+            @media only screen and (min-width: 768) {
+                .grillaBody {
+                    background-color: darkslateblue;
+                }
+            }
+        }
+    }
+}

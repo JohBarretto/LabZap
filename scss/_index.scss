@@ -1,0 +1,52 @@
+main {
+    .grillaMain {
+        grid-area: main;
+    }
+
+    div {
+        .fuentecolorantique {
+            color: antiquewhite;
+            font-style: initial;
+            background-color: brown;
+            font-family: $tipografia-general;
+        }
+
+        h1 {
+            .bordeContenedorMain {
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+        }
+
+        div {
+            .bordeContenedor {
+                margin-left: 5rem;
+                margin-right: 5rem;
+                margin-top: 2rem;
+            }
+
+            p {
+                .infoMariana {
+                    font-family: $tipografia-general;
+                    color: $color-fuente;
+                    border: solid 2px;
+                    border-color: black;
+                    padding: map-get($padding, paddingdiez);
+                    font-size: $tamano-fuente;
+                    display: inline-block;
+                }
+            }
+        }
+
+        div {
+            a {
+                .infoMarianaSinMarco {
+                    font-family: $tipografia-general;
+                    color:$color-fuente;
+                    padding: map-get($padding, paddingdiez);
+                    font-size: $tamano-fuente;
+                }
+            }
+        }
+    }
+}

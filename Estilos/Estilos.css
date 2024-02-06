@@ -2,7 +2,7 @@ body {
     background-color: rgb(204, 191, 191);
 }
 
-@media (max-width:480px) {
+@media only screen and (max-width:480px) {
     .grillaBody {
         display: grid;
         grid-template-areas:
@@ -12,16 +12,16 @@ body {
     }
 }
 
-@media screen (min-width: 481px) and (max-width:767px) {
-    header,
-    main,
-    footer;
+@media only screen and (min-width: 481px) and (max-width:767px) {
+    .grillaBody {
+        background-color: grey;
+    }
 }
 
-@media screen (min-width: 768) {
-    header,
-    main,
-    footer;
+@media only screen and (min-width: 768) {
+    .grillaBody {
+        background-color: darkslateblue;
+    }
 }
 
 @font-face {
@@ -137,14 +137,6 @@ ul li {
     align-items: center;
 }
 
-.contenedorServicios {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    padding: 2rem;
-}
-
 .servicios {
     margin: 1rem;
 }
@@ -170,6 +162,7 @@ ul li {
     margin-left: 5rem;
     margin-right: 5rem;
 }
-.contenedorContacto{
+
+.contenedorContacto {
     width: 600px;
 }

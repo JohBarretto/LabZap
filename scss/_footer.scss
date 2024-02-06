@@ -1,0 +1,20 @@
+footer {
+    .grillafooter {
+        grid-area: footer;
+    }
+
+    .bordeContenedor {
+        @extend .bordeContenedorMain;
+        margin-top: 2rem;
+    }
+    div {
+        a {
+            .infoMarianaSinMarco.infoMarianaSinMarco {
+                font-family: $tipografia-general;
+                color: $color-fuente;
+                padding: map-get($padding, paddingdiez);
+                font-size: $tamano-fuente;
+            }
+        }
+    }
+    }

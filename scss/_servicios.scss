@@ -1,0 +1,32 @@
+main {
+    .grillaMain {
+        grid-area: main;
+    }
+
+    div {
+        .fuentecolorantique {
+            color: antiquewhite;
+            font-style: initial;
+            background-color: brown;
+            font-family: $tipografia-general;
+        }
+
+        section {
+            .servicios {
+                margin: 1rem;
+            }
+
+            p {
+                .infoMariana {
+                    font-family: $tipografia-general;
+                    color: $color-fuente;
+                    border: solid 2px;
+                    border-color: black;
+                    padding: map-get($padding, paddingdiez);
+                    font-size:$tamano-fuente;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

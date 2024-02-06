@@ -1,0 +1,27 @@
+main {
+    .grillaMain {
+        grid-area: main;
+    }
+
+    div {
+        .fuentecolorantique {
+            color: antiquewhite;
+            font-style: initial;
+            background-color: brown;
+            font-family: $tipografia-general;
+        }
+
+        h1 {
+            .bordeContenedorMain {
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+        }
+    }
+
+    div {
+        .contenedorContacto {
+            width: 600px;
+        }
+    }
+}

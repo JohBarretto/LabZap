@@ -1,0 +1,53 @@
+main {
+    .grillaMain {
+        grid-area: main;
+    }
+
+    div {
+        .fuentecolorantique {
+            color: antiquewhite;
+            font-style: initial;
+            background-color: brown;
+            font-family: $tipografia-general;
+        }
+
+        h1 {
+            .bordeContenedorMain {
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+        }
+    }
+
+    div {
+        .SectionImage {
+            @include flex (space-evenly, center);
+            flex-direction: row;
+        }
+
+        img {
+            .galeriaImagenes {
+                width: 480px;
+                padding-bottom: 5px;
+                margin-left: 3px;
+                @include flex (space-evenly, center);
+                display: flex 5;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+        }
+    }
+
+    div {
+        ul {
+            li {
+                .infoMarianaSinMarco {
+                    font-family: $tipografia-general;
+                    color: $color-fuente;
+                    padding: map-get($padding, paddingdiez);
+                    font-size: $tamano-fuente;
+                }
+            }
+        }
+    }
+}
