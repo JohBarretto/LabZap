@@ -4,15 +4,7 @@ main {
     }
 
     div {
-        .fuentecolorantique {
-            color: antiquewhite;
-            font-style: initial;
-            background-color: brown;
-            font-family: $tipografia-general;
-        }
-
-        h1 {
-            .bordeContenedorMain {
+         .bordeContenedorMain {
                 margin-left: 5rem;
                 margin-right: 5rem;
             }
@@ -23,12 +15,14 @@ main {
         .SectionImage {
             @include flex (space-evenly, center);
             flex-direction: row;
+            padding-top: 1rem ;
+            margin-top: 2rem;
         }
 
         img {
             .galeriaImagenes {
                 width: 480px;
-                padding-bottom: 5px;
+                padding-bottom: 5rem;
                 margin-left: 3px;
                 @include flex (space-evenly, center);
                 display: flex 5;
@@ -50,4 +44,3 @@ main {
             }
         }
     }
-}

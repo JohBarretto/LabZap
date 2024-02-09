@@ -4,13 +4,14 @@
 }
 
 * {
-    margin: 6;
+    margin: 1;
     padding: 1;
 }
 
 body {
     background-color: rgb(204, 191, 191);
-
+    padding-left: 4rem;
+    
     .grillaBody {
         display: grid;
         grid-template-areas:
@@ -39,5 +40,16 @@ body {
                 }
             }
         }
+    }
+    .fuentecolorantique {
+        background-color: rgb(226, 187, 9);
+        padding: 1rem;
+
+    }
+
+    .contenedorIcono {
+        width: 5rem;
+        display: flexbox;
+        align-content: end;
     }
 }
